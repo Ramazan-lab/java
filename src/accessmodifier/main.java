@@ -8,9 +8,6 @@ public class main {
         System.out.println(a.name2);
         System.out.println(a.getName());
 
-
-
-        // access the private variable using the getter and setter
         a.setName("Programiz");
     }
 }

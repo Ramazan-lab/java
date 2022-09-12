@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.*;
 
-public class accessMod {
+public class collectionFreamwork {
     public static void main(String[] args){
         HashSet<String> hs= new HashSet<String>();
             hs.add("ahmet");

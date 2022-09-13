@@ -11,7 +11,7 @@ class outer {
 
 public class innerclas {
     public static void main(String[] args) {
-        //method static olursa outer sınıfından method oluşturmadan inner sınıfına ulaşılabılir
+        //method static olursa outer sınıfından obje oluşturmadan inner sınıfına ulaşılabılir
         //outer.inner myInner = new outer.inner();
        // System.out.println(myInner.y);
 

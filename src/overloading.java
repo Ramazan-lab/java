@@ -1,9 +1,9 @@
 public class overloading {
-    private String formatNumber(int value) {
+    private String formatNumber(double value) {
         return String.format("%d", value);
     }
 
-    private String formatNumber(double value) {
+    private String formatNumber(double value,int score) {
         return String.format("%.3f", value);
     }
 

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="123ad8b0-c3b1-408c-8af7-e57928e7e478" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/composition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/crud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/constructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/overloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/overloading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThisKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThisKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/innerclas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/overloading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,9 +51,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.composition">
+  <component name="RunManager" selected="Application.abstraction">
     <configuration name="FinalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FinalTest" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstraction" />
       <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,13 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="innerclas (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclas" />
-      <module name="java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="innerclas (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="innerclas" />
       <module name="java" />
@@ -92,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.abstraction" />
         <item itemvalue="Application.composition" />
         <item itemvalue="Application.FinalTest" />
         <item itemvalue="Application.constructor" />
         <item itemvalue="Application.innerclas (3)" />
-        <item itemvalue="Application.innerclas (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +107,7 @@
       <updated>1662708354326</updated>
       <workItem from="1662708356599" duration="4314000" />
       <workItem from="1662713576019" duration="19510000" />
-      <workItem from="1663049671892" duration="8243000" />
+      <workItem from="1663049671892" duration="9955000" />
     </task>
     <servers />
   </component>

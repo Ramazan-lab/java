@@ -48,6 +48,9 @@ public class collectionFreamwork {
             ts.add("sıddık");
             ts.add("hasan");
             ts.add("murat");
+        ts.add("murat");
+
+
 
         System.out.println("ts"+ts);
 

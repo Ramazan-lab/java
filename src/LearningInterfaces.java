@@ -12,7 +12,7 @@ public interface LearningInterfaces<T> extends Querys {
 }
 
 
-class Intrfc implements LearningInterfaces<User>{
+class main implements LearningInterfaces<User>{
 
 
     @Override
@@ -45,14 +45,8 @@ class Intrfc implements LearningInterfaces<User>{
         return null;
     }
 
-    public static void main(String[] args) {
-        Intrfc m=new Intrfc();
-        User u=new User("ali",new Adress("veli","111111"));
-        m.create(u);
-        m.getAllUserss();
-        m.delete(u);
-        m.getUsersById(5L);
-        m.read(u);
+    public static void Intrfc(String[] args) {
+
 
     }
 }

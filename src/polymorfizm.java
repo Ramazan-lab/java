@@ -27,7 +27,6 @@ class Teknoloji extends Urunler{
 public class polymorfizm {
     public static void main(String[] args) {
         Urunler a;
-
         a=new Teknoloji();
         a.print();
         a=new Gida();

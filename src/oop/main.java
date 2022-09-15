@@ -31,5 +31,31 @@ public class main{
 
 
 
+        public void buyingStatement(){
+            switch(btoe){
+                case BANK_CARD:
+                    System.out.println("There is a %5 extra with the bank card.");
+                    p.setPrice(((price/100)*105));
+                    break;
+
+                case CREDİT_CARD:    
+                     System.out.println("There is a %10 extra with the credit card.");
+                     p.setPrice(((price/100)*110));
+                     break;
+
+                case CASH:
+                     System.out.println("There is a no extra if it's cash.");
+                     break;
+
+
+
+            }
+        }
+
+
+
+
+
+
     }
 }

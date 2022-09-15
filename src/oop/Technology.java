@@ -3,6 +3,7 @@ package oop;
         private String type;
         private String color;
 
+
 public static int TECH_SIZE=0;
         Technology(String name, String price,String type, String color) {
             super(name, price);

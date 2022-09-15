@@ -3,6 +3,8 @@ package oop;
 public class Product {
     private String name;
     private String price;
+    final int maxStock=300;
+
 
     public static int PRODUCT_SIZE=0;
      Product(String name, String price){

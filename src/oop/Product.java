@@ -26,11 +26,8 @@ public class Product {
     }
 
     public void setPrice(String price) {
-        if(price>(price/2)){
-        this.price = price;
-        }
 
-        else{System.out.println("you cant set the price less than %50")}
+        this.price = price;
 
     }
 

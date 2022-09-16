@@ -1,7 +1,5 @@
 package oop;
 
-import java.util.ArrayList;
-
 public class User implements UserProductProcess<Product>{
 
 
@@ -23,14 +21,30 @@ public class User implements UserProductProcess<Product>{
 
     @Override
     public void buy(Product product) {
-        System.out.println("product received: "+product.getName());
+
+    }
+
+    @Override
+    public void buy(Product product, BuyingTypesEnum enumsw){
+       // System.out.println("product received: "+product.getName());
 
         try{
             int number = Integer.parseInt(budget);
-           int productnumber=Integer.parseInt(product.getPrice());
+            int productnumber=Integer.parseInt(product.getPrice());
             System.out.println("your budget is: "+number+"TL");
+            //DRY: don't repeat yourself
             if (number>productnumber) {
-                number = number - productnumber;
+            switch (enumsw) {
+                case CASH:
+                    number -= productnumber;
+                    break;
+                case BANK_CARD:
+                    number -= Integer.valueOf((int) (productnumber+Double.valueOf(productnumber)*0.05));
+                    break;
+                case CREDIT_CARD:
+                    number -= Integer.valueOf((int) (productnumber+Double.valueOf(productnumber)*0.50));
+                    break;
+            }
                 System.out.println("remaining budget: "+number+"TL");
             }
             else {

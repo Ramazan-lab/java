@@ -17,7 +17,7 @@ public class Emplooye implements Crud<Product>,Query<User>{
     @Override
     public void read() {
         for (Product p: this.productArrayList){
-            System.out.println(p);
+            System.out.println(p.getName());
         }
     }
 
